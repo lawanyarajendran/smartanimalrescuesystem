@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    height:100vh;
+
+    background:
+            linear-gradient(
+                    rgba(0,0,0,0.55),
+                    rgba(0,0,0,0.55)
+            ),
+            url("../images/bg.jpeg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register-card{
+
+    width:450px;
+    padding:45px;
+
+    border-radius:28px;
+
+    background:
+            rgba(255,255,255,0.18);
+
+    backdrop-filter: blur(18px);
+
+    border:
+            1px solid rgba(255,255,255,0.25);
+
+    box-shadow:
+            0 10px 40px rgba(0,0,0,0.4);
+
+    color:white;
+}
+
+.register-card h1{
+    text-align:center;
+    font-size:46px;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    text-align:center;
+    margin-bottom:32px;
+    color:#dbeafe;
+}
+
+.input-group{
+    margin-bottom:22px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+    font-size:15px;
+}
+
+.input-group input,
+.input-group select{
+
+    width:100%;
+    padding:16px;
+
+    border:none;
+    border-radius:14px;
+
+    background:
+            rgba(255,255,255,0.20);
+
+    color:white;
+    font-size:15px;
+
+    outline:none;
+}
+
+.input-group input::placeholder{
+    color:#e5e7eb;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    border:
+            2px solid #60a5fa;
+}
+
+.input-group select option{
+    color:black;
+}
+
+button{
+    width:100%;
+    padding:16px;
+
+    border:none;
+    border-radius:14px;
+
+    background:
+            linear-gradient(
+                    to right,
+                    #2563eb,
+                    #3b82f6
+            );
+
+    color:white;
+    font-size:17px;
+    font-weight:bold;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.login-text{
+    margin-top:20px;
+    text-align:center;
+}
+
+.login-text a{
+    color:#93c5fd;
+    text-decoration:none;
+    font-weight:bold;
+}

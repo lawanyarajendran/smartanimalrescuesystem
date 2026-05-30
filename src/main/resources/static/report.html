@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Animal</title>
+
+    <link rel="stylesheet" href="css/report.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🐾 Report Animal</h1>
+    <p>Help rescue animals by submitting a report</p>
+
+    <form id="reportForm">
+
+        <input
+                type="text"
+                id="animalName"
+                placeholder="Animal Name"
+                required>
+
+        <input
+                type="text"
+                id="location"
+                placeholder="Location"
+                required>
+
+        <input
+                type="text"
+                id="injuryDescription"
+                placeholder="Injury Description"
+                required>
+
+        <input
+                type="text"
+                id="imageUrl"
+                placeholder="Image URL">
+
+        <input
+                type="text"
+                id="reporterName"
+                placeholder="Reporter Name"
+                required>
+
+        <button type="submit">
+            Submit Report
+        </button>
+
+    </form>
+
+    <button class="back-btn"
+            onclick="window.location.href='dashboard.html'">
+        Back to Dashboard
+    </button>
+
+</div>
+
+<script src="/js/report.js"></script>
+
+</body>
+
+</html>
